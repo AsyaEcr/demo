@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css specificity</title>
+    <style>
+        h1 {
+            font-size: 10px;
+        }
+
+        #subheading {
+            font-size: 33px;
+        }
+
+        #first-p-tag {
+            font-size: 24px;
+            color: navajowhite;
+            
+        }
+
+        .p-tag {
+            font-size: 36px;
+            color: coral;
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 64px;"> Css specificity</h1>
+    <h1 id="subheading">Lorem, ipsum dolor.</h1>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <hr>
+    <p class="p-tag" id="first-p-tag">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="p-tag">Lorem ipsum dolor sit amet.</p>
+    <p class="p-tag">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <hr>
+    <a href="#">click</a>
+
+
+
+</body>
+
+</html>
